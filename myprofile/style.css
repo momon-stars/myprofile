@@ -1,4 +1,9 @@
+* {
+  color: #333;
+}
+
 body {
+  background-color: #fff;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -101,7 +106,7 @@ footer p {
   text-align: center;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .header {
     margin: 0 5px;
   }
