@@ -1,0 +1,164 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+header {
+  height: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.header-left h1 {
+  border: solid 1px #333;
+  font-size: 34px;
+}
+
+.header-right ul {
+  display: flex;
+  
+}
+
+.header-right ul li {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 34px;
+}
+
+.main-visual img {
+  max-width: 100%;
+}
+
+.about {
+  margin-top: 70px;
+}
+
+.title-section h2 {
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-img img {
+  border-radius: 50%;
+  width: 280px;
+}
+
+.about-item {
+  margin-left: 120px;
+  padding: 50px 0;
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.work-item {
+  width: 240px;
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media screen and (max-width:768px) {
+  .header-right ul li {
+    font-size: 21px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+  .header-right ul li:first-child {
+    padding-left: 0;
+  }
+
+  .header-right ul li:last-child {
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+    padding: 0 20px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .main-visual img {
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-img {
+    margin: 0 auto;
+    min-width: 280px;
+  }
+
+  .about-item {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .about-description {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .work-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .work-item {
+    
+  }
+  .work-item img {
+    width: 100vw;
+    height: auto;
+    display: block;
+  }
+
+  .work-description {
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+
+}
+  
